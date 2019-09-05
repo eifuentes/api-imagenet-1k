@@ -3,9 +3,6 @@ API to Classify an Image from 1k Classes from the ImageNet 1k challenge.
 
 Provided an image url this service will predict the predominant object in the image. [Here is a list](http://image-net.org/challenges/LSVRC/2012/browse-synsets) of the 1,000 possible objects to be classified.
 
-###### Maintainer
-emmanuel.i.fuentes@gmail.com
-
 ## Development
 
 To locally develop, follow the docker instructions below to get quickly up and running.
