@@ -62,3 +62,6 @@ curl --request GET http://localhost:8000/report
 ```javascript
 {"https://www.healthypawspetinsurance.com/Images/V3/DogAndPuppyInsurance/Dog_CTA_Desktop_HeroImage.jpg": {"num_requested": 6, "processing_time_min": 0.0, "processing_time_max": 0.366, "processing_time_mean": 0.061}, "https://cdn.thewirecutter.com/wp-content/uploads/2018/03/womens-running-shoes-lowres-4796-570x380.jpg": {"num_requested": 2, "processing_time_min": 0.0, "processing_time_max": 0.166, "processing_time_mean": 0.083}, "https://s3.amazonaws.com/gumgum-interviews/ml-engineer/cat.jpg": {"num_requested": 1, "processing_time_min": 0.631, "processing_time_max": 0.631, "processing_time_mean": 0.631}}
 ```
+
+## Known Issues
+- upgrade of torchvision version has made predictions incorrect
